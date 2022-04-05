@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>exercice7</title>
+</head>
+
+<body>
+    <!-- <h5>Votre identité</h5>
+    <div class="identity"> -->
+    <!-- <fieldset></fieldset> -->
+
+    <fieldset class="identity">
+        <legend id="identity">Votre identité</legend>
+
+
+        <ol>
+            <li>Nom : <input type="text" placeholder="Nom"> </li>
+            <li>Prenom : <input type="text" placeholder="Prenom"></li>
+            <li>Adresse mail <input type="text" placeholder="adresse mail"> :</li>
+        </ol>
+
+    </fieldset>
+    <!-- </div> -->
+
+    <fieldset class="delivery">
+        <legend id="delivery">adresse de livraison</legend>
+        <ol>
+            <li> Adresse <textarea name="boxSize" cols="15" rows="6"></textarea> </li>
+            <li>Code postal : <input type="text" placeholder="Code postal"> </li>
+            <li>Ville <input type="text" placeholder="Ville"></li>
+        </ol>
+    </fieldset>
+
+    <fieldset id="payment">
+        <legend id="paymentColor"> information de réglement </legend>
+        <ol>
+            <li>Type de carte bancaire
+                <ul>
+                    <li><input type="radio" id="Visa" name="cb">VISA</li>
+                    <li><input type="radio" id="Mastercard" name="cb">Mastercard</li>
+                </ul>
+            </li>
+            <li>Numéro de carte : <input type="text" placeholder="Numéro de carte"></li>
+            <li>Code se sécurité : <input type="text" placeholder="Code de sécirité"> </li>
+            <li>Nom du titulaire : <input type="text" placeholder="Nom du titulaire"> </li>
+
+        </ol>
+
+    </fieldset>
+    <button>J'achète!</button>
+
+</body>
+
+</html>
