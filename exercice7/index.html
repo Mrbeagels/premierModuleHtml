@@ -10,49 +10,85 @@
 </head>
 
 <body>
-    <!-- <h5>Votre identité</h5>
-    <div class="identity"> -->
-    <!-- <fieldset></fieldset> -->
+    <form method="post" action="#">
+        <fieldset class="identity">
+            <legend id="identity">Votre identité</legend>
+            <ol>
+                <li>
+                    <label for="lname">Nom :</label>
+                    <input type="text" placeholder="Nom" name="lastname" id="lname"> 
+                
+                </li>
+                <li>
+                    <label for="fname">Prénom : </label>
+                    <input type="text" placeholder="Prenom" name="firstName" id="fname">
+                
+                </li>
+                <li>
+                    <label for="mailAdress">Adresse mail : </label> 
+                    <input type="email" placeholder="adresse mail" name="mail" id="mailAdress"> :
+                </li>
 
-    <fieldset class="identity">
-        <legend id="identity">Votre identité</legend>
+            </ol>
 
+        </fieldset>
 
-        <ol>
-            <li>Nom : <input type="text" placeholder="Nom"> </li>
-            <li>Prenom : <input type="text" placeholder="Prenom"></li>
-            <li>Adresse mail <input type="text" placeholder="adresse mail"> :</li>
-        </ol>
+        <fieldset method="text" class="delivery">
+            <legend id="delivery">adresse de livraison</legend>
+                <ol>
 
-    </fieldset>
-    <!-- </div> -->
+                    <li> 
+                        <label for="adress">Adresse :</label>
+                        <textarea cols="15" rows="6" name="deliveryAdress" id="adress"></textarea> 
+                    </li>
 
-    <fieldset class="delivery">
-        <legend id="delivery">adresse de livraison</legend>
-        <ol>
-            <li> Adresse <textarea name="boxSize" cols="15" rows="6"></textarea> </li>
-            <li>Code postal : <input type="text" placeholder="Code postal"> </li>
-            <li>Ville <input type="text" placeholder="Ville"></li>
-        </ol>
-    </fieldset>
+                    <li>
+                        <label for="code">Code postal : </label>
+                        <input type="text" placeholder="Code postal" name="postalCode" id="code"> 
+                    </li>
 
-    <fieldset id="payment">
-        <legend id="paymentColor"> information de réglement </legend>
-        <ol>
-            <li>Type de carte bancaire
-                <ul>
-                    <li><input type="radio" id="Visa" name="cb">VISA</li>
-                    <li><input type="radio" id="Mastercard" name="cb">Mastercard</li>
-                </ul>
-            </li>
-            <li>Numéro de carte : <input type="text" placeholder="Numéro de carte"></li>
-            <li>Code se sécurité : <input type="text" placeholder="Code de sécirité"> </li>
-            <li>Nom du titulaire : <input type="text" placeholder="Nom du titulaire"> </li>
+                    <li>
+                        <label for="city"> Ville :</label>
+                        <input type="text" placeholder="Ville" name="deliveryCity" id="city">
+                    </li>
 
-        </ol>
+                </ol>
+        </fieldset>
 
-    </fieldset>
-    <button>J'achète!</button>
+        <fieldset id="payment">
+            <legend id="paymentColor"> information de réglement </legend>
+            <ol>
+                <li id="cardType">Type de carte bancaire
+<!-- mettre un id dans l'attribut de carte avant de retirer avec le css les points -->
+                    <ul>
+                        <li>
+                            <input type="radio" id="Visa" name="cb">VISA
+                        </li>
+                        <li>
+                            <input type="radio" id="Mastercard" name="cb">Mastercard
+                        </li>
+                    </ul>
+                </li>
+                <li> 
+                    <label for="cardNumber">Numéro de carte : </label>
+                    <input type="number" placeholder="Numéro de carte" name="ncard" id="cardNumber">
+                
+                </li>
+                <li>
+                    <label for="securityCode">Code se sécurité :</label>
+                    <input type="password" placeholder="Code de sécurité" name="scode" id="securityCode"> 
+                
+                </li>
+
+                <li>
+                    <label for="tituName"> Nom du titulaire :</label>
+                    <input type="text" placeholder="Nom du titulaire" name="tname" id="tituName"> 
+                </li>
+
+            </ol>
+    </form>
+        </fieldset>
+    <button type="submit" >J'achète!</button>
 
 </body>
 

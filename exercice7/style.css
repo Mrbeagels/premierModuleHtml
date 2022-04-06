@@ -1,22 +1,13 @@
 .identity{
-    margin: 5px;
-    display: flex;
-    height: 100px;
     background-color: #2574A9;
     color: black;
 }
 
 .delivery{
-    margin: 5px;
-    display: flex;
-    height: 180px;
     background-color: #9A12B3 ;
 }
 
 #payment{
-    margin: 5px;
-    display: flex;
-    height: 200px;
     background-color: #DB0A5B ; 
 }
 
