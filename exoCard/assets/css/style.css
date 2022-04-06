@@ -1,0 +1,73 @@
+body{
+    background-color: #FFBB98;
+    color: #344648;
+    text-shadow
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.conteneur{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    height: 350px;
+    width: 300px;
+    background-color: #FBE0C3;
+    border-radius: 5%;
+    margin: 20px;
+    border: 1px solid black;
+}
+#pit{
+    height: 150px;
+    width: 300px;
+    border-radius: 5%;
+    border: 1px solid black
+}
+
+#felinferno{
+    height: 150px;
+    width: 300px;
+    border-radius: 5%;
+    border: 1px solid black
+}
+#mario{
+    height: 150px;
+    width: 300px;
+    border-radius: 5%;
+    border: 1px solid black
+}
+#kingKRool{
+    height: 150px;
+    width: 300px;
+    border-radius: 5%;
+    border: 1px solid black;
+}
+#mrGameWatch{
+    height: 150px;
+    width: 300px;
+    border-radius: 5%;
+    border: 1px solid black;
+}
+#entraineuseWiiFit{
+    height: 150px;
+    width: 300px;
+    border-radius: 5%;
+    border: 1px solid black;
+}
+#bowserJr{
+    height: 150px;
+    width: 300px;
+    border-radius: 5%;
+    border: 1px solid black;
+}
+#ridley{
+    height: 150px;
+    width: 300px;
+    border-radius: 5%;
+    border: 1px solid black;
+}
+p:hover{
+    background-color: gold;
+}
+

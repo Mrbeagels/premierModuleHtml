@@ -1,0 +1,57 @@
+/* body ol  :nth-child(1n){
+    color: blue;
+}
+body ol li :first-child{
+    color: red;
+}
+body ol li :nth-child(2n){
+    color: red;
+}
+body ol li :nth-child(3n){
+    color: green;
+}
+body ol li li :nth-child(n){
+    color: black; */
+/* } */
+/* body{
+    font-family: coming 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} */
+body{
+    font-family: 'Coming Soon', cursive;
+}
+
+/* span :nth-child(1){
+    color: pink;
+}
+ol :first-child{
+    color: blue;
+}
+li :nth-child(1n){
+    color: red;
+}
+li :nth-child(3n){
+    color: green;
+}
+ol :nth-child(4){
+    color: grey;
+}
+{
+    color: black;
+} */
+
+ol>li:first-of-type{
+    color: blue;
+}
+ol>li:first-child>ul>li:nth-child(1),
+ol>li:first-child>ul>li:nth-child(2){
+    color: red;
+}
+ol>li:first-child>ul>li:nth-child(3){
+    color: green;
+}
+ol>li:nth-child(4){
+    color: gray;
+}
+p span span{
+    color: pink;
+}
