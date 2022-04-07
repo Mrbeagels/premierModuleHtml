@@ -1,9 +1,10 @@
 body{
-    background-color: #FFBB98;
+    font-size:large;
     color: #344648;
-    text-shadow
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
+    background-image: url(https://image.jeuxvideo.com/medias-crop-1200-675/159661/1596608238-6642-card.jpg);
+    background-clip: border-box;
 }
 
 .conteneur{
@@ -11,9 +12,19 @@ body{
     flex-wrap: wrap;
 }
 .card{
-    height: 350px;
+    opacity: 80%;
+    height: 450px;
     width: 300px;
     background-color: #FBE0C3;
+    border-radius: 5%;
+    margin: 20px;
+    border: 1px solid black;
+}
+
+.cardGold{
+    height: 450px;
+    width: 300px;
+    background-color: rgb(255, 217, 0);
     border-radius: 5%;
     margin: 20px;
     border: 1px solid black;
@@ -59,7 +70,8 @@ body{
     height: 150px;
     width: 300px;
     border-radius: 5%;
-    border: 1px solid black;
+    border: 1px solid ;
+    transform: rotate(15deg);
 }
 #ridley{
     height: 150px;
@@ -69,5 +81,12 @@ body{
 }
 p:hover{
     background-color: gold;
+}
+h1:hover{
+    visibility: hidden;
+}
+h5:hover{
+    color: white;
+    transition: background-color 1s;
 }
 
